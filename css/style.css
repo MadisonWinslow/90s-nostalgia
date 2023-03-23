@@ -7,3 +7,22 @@ body {
     margin: block;
 }
 
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url("../images/greatest-90s-fashion-trends.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
