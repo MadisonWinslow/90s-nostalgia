@@ -128,7 +128,23 @@ figcaption {
     width: 260px;
     float: left;
     padding: 0, 0, 0, 2em;
+}
 
+
+
+
+.feature-articles {
+    display: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding: 8px 0;
 }
 
 
