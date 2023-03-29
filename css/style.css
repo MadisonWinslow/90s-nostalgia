@@ -52,18 +52,38 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-}
-
-
-
-nav {
     padding-top: .5em;
     padding-bottom: .5em;
     padding-left: .75em;
     padding-right: .75em;
+    background-color: purple;
+
 }
 
+a.buttom {
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+}
 
+a.button:visited {
+    background-color: purple;
+    color: white;
+    border: 2px solid white;
+
+}
+
+a.button:hover {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+}
+
+a.buttom:focus {
+    background-color: white;
+    color: purple;
+    border: 2px solid purple;
+}
 
 .hero {
     width: 100%;
