@@ -70,7 +70,6 @@ a.button:visited {
     background-color: purple;
     color: white;
     border: 2px solid white;
-
 }
 
 a.button:hover {
@@ -92,4 +91,19 @@ a.buttom:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+}
+
+h1 {
+    width: 75%;
+    padding: .5em;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px -2px rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,.25);
+}
+
+.trends {
+    background-color: purple;
 }
